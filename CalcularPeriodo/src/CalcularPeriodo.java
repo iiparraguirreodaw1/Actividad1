@@ -19,6 +19,9 @@ public class CalcularPeriodo {
 		LocalDate fecha3 = LocalDate.of(2000, Month.SEPTEMBER, 18);	 
 		// Mostramos cuánto tiempo ha pasado
 		calcularPeriodo("El nacimiento de Unaitxi", fecha3);
+		LocalDate fecha4 = LocalDate.of(3000, Month.SEPTEMBER, 30);	 
+		// Mostramos cuánto tiempo ha pasado
+		calcularPeriodo("Reencarnacion de Unaitxi", fecha3);
 	}
 	
 	public static void calcularPeriodo(String nombre, LocalDate fecha) {
